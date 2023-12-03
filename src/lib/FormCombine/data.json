@@ -1,0 +1,170 @@
+{
+    "title": "Form title",
+    "form": [
+        {
+            "elementType": "fieldset",
+            "name": "first-fieldset",
+            "title": "Fieldset title",
+            "subTitle": "Fieldset subtitle",
+            "fields": [
+                {
+                    "name": "firstName",
+                    "elementType": "textField",
+                    "label": "Введите имя",
+                    "placeholder": "Иван",
+                    "helperText": "Helper text lorem ipsum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstName1",
+                    "elementType": "textField",
+                    "label": "sadsada asdя",
+                    "placeholder": "Иваasdaн",
+                    "helperText": "Helper text lorem ipsasdum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstName2",
+                    "elementType": "textField",
+                    "label": "Введasdите имasdя",
+                    "placeholder": "Иasdван",
+                    "helperText": "Helper text lorem ipsum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstName3",
+                    "elementType": "textField",
+                    "label": "Введasdите имя",
+                    "placeholder": "Иasdван",
+                    "helperText": "Helper text lorem ipsum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstName4",
+                    "elementType": "textField",
+                    "label": "Ввasdедите имя",
+                    "placeholder": "Ивadан",
+                    "helperText": "Helper text lorem ipsum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstName5",
+                    "elementType": "textField",
+                    "label": "Введите asdasdимя",
+                    "placeholder": "Иван",
+                    "helperText": "Helper text lorem ipsum",
+                    "value": "",
+                    "cross": true,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "required",
+                            "message": "Required field"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 10,
+                            "message": "max length 10"
+                        }
+                    ]
+                },
+                {
+                    "name": "lastName",
+                    "elementType": "textField",
+                    "label": "Введите фамилию",
+                    "placeholder": "Иванов",
+                    "value": "",
+                    "cross": true,
+                    "disabled": false,
+                    "validation": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "maxLength",
+                            "value": 15,
+                            "message": "max length 15"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

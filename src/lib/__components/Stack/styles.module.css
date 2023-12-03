@@ -1,0 +1,14 @@
+.stack {
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    gap: var(--stack-gap);
+}
+
+.stack-row {
+    flex-direction: row;
+}
+
+.stack-column {
+    flex-direction: column;
+}

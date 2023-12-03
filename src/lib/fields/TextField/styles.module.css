@@ -1,0 +1,27 @@
+
+
+.textField {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font: inherit;
+    border: 2px solid var(--gray-100);
+}
+
+.textField:focus {
+    border: 2px solid var(--black);
+}
+
+.textField:hover, .textField:focus:hover {
+    border: 2px solid var(--gray-200);
+}
+
+.textField::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: var(--gray-200);
+}
+
+.textField[data-error='true'] {
+    border: 2px solid var(--red);
+}

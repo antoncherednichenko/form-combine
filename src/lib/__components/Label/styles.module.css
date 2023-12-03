@@ -1,0 +1,16 @@
+.label {
+    position: relative;
+}
+
+.labelMessage {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.labelMessage[data-required='true']:after {
+    content: '*';
+    color: var(--red);
+    display: inline-block;
+    margin-left: 2px;
+}
